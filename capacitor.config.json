@@ -1,0 +1,14 @@
+{
+  "appId": "fr.antigaspi.frigo",
+  "appName": "Frigo anti-gaspi",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#F2F4F3"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_notify",
+      "iconColor": "#14945A"
+    }
+  }
+}

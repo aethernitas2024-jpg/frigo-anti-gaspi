@@ -1,0 +1,10 @@
+plugins {
+    // Télécharge automatiquement le JDK 21 demandé par Capacitor 8 s'il n'est pas installé.
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.10.0'
+}
+
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
+
+apply from: 'capacitor.settings.gradle'
